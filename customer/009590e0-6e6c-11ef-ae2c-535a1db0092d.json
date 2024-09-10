@@ -8,7 +8,10 @@
     "country" : "Germany",
     "customerId" : null,
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "009590e0-6e6c-11ef-ae2c-535a1db0092d"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "009590e0-6e6c-11ef-ae2c-535a1db0092d"
@@ -21,7 +24,6 @@
     "title" : "Customer D",
     "zip" : "98000"
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
