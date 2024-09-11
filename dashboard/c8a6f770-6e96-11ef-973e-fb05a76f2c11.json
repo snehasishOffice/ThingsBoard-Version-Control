@@ -2000,14 +2000,10 @@
       "filters" : { }
     },
     "customerId" : null,
-<<<<<<< HEAD
-    "externalId" : null,
-=======
     "externalId" : {
       "entityType" : "DASHBOARD",
       "id" : "c8a6f770-6e96-11ef-973e-fb05a76f2c11"
     },
->>>>>>> fef4777056ff61c6f611a74df78007d968a23265
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "c8a6f770-6e96-11ef-973e-fb05a76f2c11"
@@ -2019,10 +2015,7 @@
     "ownerId" : null,
     "title" : "Temperature & Humidity"
   },
-<<<<<<< HEAD
-=======
   "relations" : [ ],
->>>>>>> fef4777056ff61c6f611a74df78007d968a23265
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
