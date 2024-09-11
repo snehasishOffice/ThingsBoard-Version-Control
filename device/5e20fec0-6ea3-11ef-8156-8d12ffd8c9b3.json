@@ -1,0 +1,86 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5e0ab7a0-6ea3-11ef-8156-8d12ffd8c9b3"
+    },
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "5e20fec0-6ea3-11ef-8156-8d12ffd8c9b3"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "5e20fec0-6ea3-11ef-8156-8d12ffd8c9b3"
+    },
+    "label" : null,
+    "name" : "Bus D",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "bus"
+  },
+  "credentials" : {
+    "credentialsId" : "K19HBxSkabEvUKkQaCsS",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "Company",
+      "lastUpdateTs" : 1726028109773,
+      "longValue" : null,
+      "strValue" : "Amazon"
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1725883942625,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "height",
+      "lastUpdateTs" : 1725947432673,
+      "longValue" : 7,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1725883942625,
+      "longValue" : 1725883942621,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "new",
+      "lastUpdateTs" : 1725945911246,
+      "longValue" : null,
+      "strValue" : "branch"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
