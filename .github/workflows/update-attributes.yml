@@ -1,0 +1,41 @@
+name: Update Device Attributes
+
+on:
+  schedule:
+    - cron: '10 1 * * *'  # Runs daily at midnight (UTC)
+  workflow_dispatch:
+
+jobs:
+  update-attributes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Run Update Script
+        env:
+          THINGSBOARD_URL: ${{ secrets.https://thingsboard.cloud}}
+          DEVICE_ID: ${{ secrets.5e1ae440-6ea3-11ef-8156-8d12ffd8c9b3 }}
+          ACCESS_TOKEN: ${{ secrets.kH1PuVEe3LVPJuy7mDgZ }}
+        run: |
+          python update_device_attributes.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "snehasishb2003@gmail.com"
+          git add .
+          git commit -m "Automated update of device attributes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.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 }}

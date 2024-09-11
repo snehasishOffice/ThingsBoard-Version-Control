@@ -4,7 +4,14 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
+<<<<<<< HEAD
     "externalId" : null,
+=======
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "c95e9630-6e6b-11ef-a1aa-e51aba1ce3d5"
+    },
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "c9610731-6e6b-11ef-a1aa-e51aba1ce3d5"
@@ -295,9 +302,16 @@
         "layoutY" : 690
       },
       "configuration" : {
+<<<<<<< HEAD
         "ruleChainId" : "c9596610-6e6b-11ef-a1aa-e51aba1ce3d5"
       },
       "configurationVersion" : 0,
+=======
+        "ruleChainId" : "c9596610-6e6b-11ef-a1aa-e51aba1ce3d5",
+        "forwardMsgToDefaultRuleChain" : false
+      },
+      "configurationVersion" : 1,
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

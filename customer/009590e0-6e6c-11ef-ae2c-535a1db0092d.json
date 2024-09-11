@@ -24,6 +24,10 @@
     "title" : "Customer D",
     "zip" : "98000"
   },
+<<<<<<< HEAD
+=======
+  "relations" : [ ],
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }

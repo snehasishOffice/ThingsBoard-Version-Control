@@ -38,6 +38,10 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+<<<<<<< HEAD
+=======
+  "relations" : [ ],
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
@@ -59,6 +63,7 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+<<<<<<< HEAD
       "key" : "weight",
       "lastUpdateTs" : 1725949829428,
       "longValue" : null,
@@ -68,10 +73,23 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+=======
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
       "key" : "inactivityAlarmTimeNew",
       "lastUpdateTs" : 1725883982931,
       "longValue" : 1725883982924,
       "strValue" : null
+<<<<<<< HEAD
+=======
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "weight",
+      "lastUpdateTs" : 1725949829428,
+      "longValue" : null,
+      "strValue" : "50"
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
     } ],
     "SHARED_SCOPE" : [ ]
   }
