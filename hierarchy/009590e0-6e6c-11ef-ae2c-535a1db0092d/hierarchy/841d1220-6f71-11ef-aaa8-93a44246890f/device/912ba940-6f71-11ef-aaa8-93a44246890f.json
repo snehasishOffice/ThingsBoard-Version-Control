@@ -42,6 +42,10 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+<<<<<<< HEAD
+  "attributes" : {
+    "SERVER_SCOPE" : [ ],
+=======
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -61,6 +65,7 @@
       "longValue" : 1725972555024,
       "strValue" : null
     } ],
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
     "SHARED_SCOPE" : [ ]
   }
 }

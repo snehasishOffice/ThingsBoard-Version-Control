@@ -38,6 +38,10 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
+<<<<<<< HEAD
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+=======
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -49,6 +53,7 @@
       "longValue" : null,
       "strValue" : "Amazon"
     }, {
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
       "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
@@ -60,6 +65,8 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+<<<<<<< HEAD
+=======
       "key" : "height",
       "lastUpdateTs" : 1725947432673,
       "longValue" : 7,
@@ -68,6 +75,7 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+>>>>>>> fef4777056ff61c6f611a74df78007d968a23265
       "key" : "inactivityAlarmTime",
       "lastUpdateTs" : 1725883942625,
       "longValue" : 1725883942621,
