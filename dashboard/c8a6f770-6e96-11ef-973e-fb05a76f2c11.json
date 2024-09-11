@@ -2000,7 +2000,10 @@
       "filters" : { }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "c8a6f770-6e96-11ef-973e-fb05a76f2c11"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "c8a6f770-6e96-11ef-973e-fb05a76f2c11"
